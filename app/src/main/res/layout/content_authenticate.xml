@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/authenticate_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluePrimary"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.silambarasan.smartstack.authentication.Authenticate"
+    tools:showIn="@layout/activity_authenticate">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingBottom="10dp"
+            android:paddingLeft="56dp"
+            android:paddingRight="56dp"
+            android:paddingTop="10dp"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="@color/colorAccent"
+            fancy:fb_focusColor="@color/bluePrimary"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="7dp"
+            fancy:fb_text="Login"
+            fancy:fb_textColor="#FFFFFF" />
+    </LinearLayout>
+</RelativeLayout>

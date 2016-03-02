@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.silambarasan.smartstack.MainActivity">
+
+    <item
+        android:id="@+id/action_feed"
+        android:icon="@drawable/ic_rss_feed_white_24dp"
+        android:title="Inbox"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_power_settings_new_white_24dp"
+        android:title="Logout"
+        app:showAsAction="always" />
+</menu>
