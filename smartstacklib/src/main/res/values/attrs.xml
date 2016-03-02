@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressActivity">
+        <attr name="loadingProgressBarWidth" format="dimension"/>
+        <attr name="loadingProgressBarHeight" format="dimension"/>
+        <attr name="loadingBackgroundColor" format="color"/>
+
+        <attr name="emptyImageWidth" format="dimension"/>
+        <attr name="emptyImageHeight" format="dimension"/>
+        <attr name="emptyTitleTextSize" format="dimension"/>
+        <attr name="emptyContentTextSize" format="dimension"/>
+        <attr name="emptyTitleTextColor" format="color"/>
+        <attr name="emptyContentTextColor" format="color"/>
+        <attr name="emptyBackgroundColor" format="color"/>
+
+        <attr name="errorImageWidth" format="dimension"/>
+        <attr name="errorImageHeight" format="dimension"/>
+        <attr name="errorTitleTextSize" format="dimension"/>
+        <attr name="errorContentTextSize" format="dimension"/>
+        <attr name="errorTitleTextColor" format="color"/>
+        <attr name="errorContentTextColor" format="color"/>
+        <attr name="errorButtonTextColor" format="color"/>
+        <attr name="errorBackgroundColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="StackTags">
+        <attr name="st_isAppendMode" format="boolean" />
+        <attr name="st_inputHint" format="string" />
+        <attr name="st_borderColor" format="color" />
+        <attr name="st_textColor" format="color" />
+        <attr name="st_backgroundColor" format="color" />
+        <attr name="st_dashBorderColor" format="color" />
+        <attr name="st_inputHintColor" format="color" />
+        <attr name="st_inputTextColor" format="color" />
+        <attr name="st_checkedBorderColor" format="color" />
+        <attr name="st_checkedTextColor" format="color" />
+        <attr name="st_checkedMarkerColor" format="color" />
+        <attr name="st_checkedBackgroundColor" format="color" />
+        <attr name="st_pressedBackgroundColor" format="color" />
+        <attr name="st_borderStrokeWidth" format="dimension" />
+        <attr name="st_textSize" format="dimension" />
+        <attr name="st_horizontalSpacing" format="dimension" />
+        <attr name="st_verticalSpacing" format="dimension" />
+        <attr name="st_horizontalPadding" format="dimension" />
+        <attr name="st_verticalPadding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="stGroupStyle" format="reference" />
+    </declare-styleable>
+</resources>
